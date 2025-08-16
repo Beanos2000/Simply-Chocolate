@@ -180,4 +180,201 @@ body {
     width: 32px;
     height: 32px;
   }
+}
+
+.hero__box {
+  padding-left: 20px;
+  padding-right: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/mobile/heroimage-mobile@1x.png);
+  padding-top: 395px;
+  padding-bottom: 21px;
+  border-radius: 23px;
+}
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero__box {
+    background-image: url(../images/mobile/heroimage-mobile@2x.png);
+  }
+}
+@media screen and (min-width: 736px) {
+  .hero__box {
+    padding-left: 40px;
+    padding-right: 40px;
+    background-size: cover;
+    background-image: url(../images/tablet/heroimage-tablet@1x.jpg);
+    padding-top: 671px;
+    padding-bottom: 40px;
+  }
+}
+@media screen and (min-width: 736px) and (min-device-pixel-ratio: 2), screen and (min-width: 736px) and (min-resolution: 192dpi), screen and (min-width: 736px) and (min-resolution: 2dppx) {
+  .hero__box {
+    background-image: url(../images/tablet/heroimage-tablet@2x.jpg);
+  }
+}
+@media screen and (min-width: 1168px) {
+  .hero__box {
+    background-size: cover;
+    background-image: url(../images/desktop/heroimage-desktop@1x.jpg);
+    padding-top: 381px;
+  }
+}
+@media screen and (min-width: 1168px) and (min-device-pixel-ratio: 2), screen and (min-width: 1168px) and (min-resolution: 192dpi), screen and (min-width: 1168px) and (min-resolution: 2dppx) {
+  .hero__box {
+    background-image: url(../images/desktop/heroimage-desktop@2x.jpg);
+  }
+}
+.hero__title {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.6px;
+  width: 299px;
+  margin-bottom: 32px;
+}
+@media screen and (min-width: 736px) {
+  .hero__title {
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.84px;
+    width: 484px;
+  }
+}
+@media screen and (min-width: 736px) {
+  .hero__group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.hero__list {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 32px;
+}
+@media screen and (min-width: 736px) {
+  .hero__list {
+    margin-bottom: 0px;
+  }
+}
+.hero__link {
+  padding: 12px 28px;
+  border-radius: 100px;
+  background: #FD9222;
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+@media screen and (min-width: 736px) {
+  .hero__link {
+    padding: 14px 40px;
+  }
+}
+.hero__item:last-child .hero__link {
+  border: 1px solid #FFF;
+  background-color: transparent;
+}
+.hero__scroll {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: -0.36px;
+}
+@media screen and (min-width: 736px) {
+  .hero__scroll {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.42px;
+  }
+}
+.hero__span {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 736px) {
+  .hero__span {
+    width: 38px;
+    height: 38px;
+  }
+}
+.hero__icon {
+  width: 16px;
+  height: 16px;
+  fill: #FD9222;
+}
+@media screen and (min-width: 736px) {
+  .hero__icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+.benefits {
+  padding-top: 71px;
+}
+@media screen and (min-width: 736px) {
+  .benefits {
+    padding-top: 50px;
+  }
+}
+@media screen and (min-width: 1168px) {
+  .benefits {
+    padding-top: 72px;
+  }
+}
+.benefits__container {
+  padding: 20px;
+  background-color: #1E1823;
+}
+@media screen and (min-width: 736px) {
+  .benefits__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+}
+.benefits__image {
+  width: 32px;
+  height: 32px;
+  fill: #FD9222;
+}
+.benefits__title {
+  margin-top: 22px;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+}
+.benefits__text {
+  margin-bottom: 20px;
+  margin-top: 18px;
+  width: 308px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+@media screen and (min-width: 1168px) {
+  .benefits__text::after {
+    content: "";
+    width: 1px;
+    height: 124px;
+    background: rgba(255, 255, 255, 0.5);
+  }
 }/*# sourceMappingURL=main.css.map */

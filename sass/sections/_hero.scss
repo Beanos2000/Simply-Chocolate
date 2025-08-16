@@ -2,13 +2,16 @@
     &__box {
         padding-left: 20px;
         padding-right: 16px;
+        padding-top: 395px;
+        padding-bottom: 21px;
+        margin-bottom: 71px;
+
+        border-radius: 23px;
+
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         background-image: url(../images/mobile/heroimage-mobile@1x.png);
-        padding-top: 395px;
-        padding-bottom: 21px;
-        border-radius: 23px;
 
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
@@ -19,6 +22,7 @@
         @media screen and (min-width: 736px) {
             padding-left: 40px;
             padding-right: 40px;
+            margin-bottom: 50px;
             background-size: cover;
             background-image: url(../images/tablet/heroimage-tablet@1x.jpg);
             padding-top: 671px;
@@ -32,6 +36,7 @@
         }
 
         @media screen and (min-width: 1168px) {
+            margin-bottom: 72px;
             background-size: cover;
             background-image: url(../images/desktop/heroimage-desktop@1x.jpg);
             padding-top: 381px;

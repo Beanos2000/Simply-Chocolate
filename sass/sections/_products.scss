@@ -1,0 +1,63 @@
+.products {
+    padding-top: 72px;
+
+    &__title {
+        color: $text-color;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.6px;
+        text-transform: uppercase;
+    }
+
+    &__product {
+        color: $highlight-color;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.6px;
+        text-transform: uppercase;
+    }
+
+    &__subtitle {
+        color: $text-color;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.36px;
+        text-transform: uppercase;
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 32px 52px 32px 53px;
+        border-radius: 15px;
+        border: 1px solid rgba(17, 17, 17, 0.10);
+        background: #FFF;
+    }
+
+    &__text {
+        margin-top: 8px;
+        color: $description-color;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: -0.24px;
+    }
+
+    &__button {
+        margin-top: 18px;
+        padding: 8px 20px;
+        border-radius: 100px;
+        border: 1px solid rgba(17, 17, 17, 0.10);
+        background: #FAFAFA;
+        color: $text-color;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: normal;
+    }
+}

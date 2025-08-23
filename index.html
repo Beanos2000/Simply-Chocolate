@@ -139,7 +139,8 @@
 
         <section class="taste">
             <div class="container">
-                <h2 class="taste__title">IT ALL ADDS UP TO ONE EXCEPTIONAL <span class="taste__taste">TASTE</span> SENSATION</h2>
+                <h2 class="taste__title">IT ALL ADDS UP TO ONE EXCEPTIONAL <span class="taste__taste">TASTE</span>
+                    SENSATION</h2>
                 <p class="taste__description">At Simply Chocolate, we believe that the secret to exceptional chocolate
                     is in the details. From the sourcing of the finest ingredients to the careful crafting of each
                     individual piece, every step of our process adds up to one exceptional taste sensation.</p>
@@ -176,12 +177,78 @@
         <section class="made">
             <div class="container">
                 <h2 class="made__title">hOW IT’S <span class="made__made">made?</span></h2>
-                <picture>
-                    <source>
-                    <source>
-                    <source>
-                </picture>
-                <img src="" alt="">
+                <div class="made__group">
+                    <picture>
+                        <source
+                            srcset="./images/desktop/desktop-madevideo@1x.webp 1x, ./images/desktop/desktop-madevideo@2x.webp 2x"
+                            media="(min-width:1168px)">
+                        <source
+                            srcset="./images/tablet/tablet-madevideo@1x.webp 1x, ./images/tablet/tablet-madevideo@2x.webp 2x"
+                            media="(min-width:736px)">
+                        <source
+                            srcset="./images/mobile/mobile-madevideo@1x.webp 1x, ./images/mobile/mobile-madevideo@2x.webp 2x"
+                            media="(max-width:735px)">
+                        <img src="./images/desktop/desktop-madevideo.webp" alt="" class="made__image">
+                    </picture>
+
+                    <ul class="made__list">
+                        <h3 class="made__subtitle">Try our chocolates today and discover the perfect balance of flavor
+                        </h3>
+                        <li class="made__item">
+                            <p class="made__text">Heat the milk in a saucepan without bringing it to a boil. Add sugar
+                                and
+                                cocoa powder.</p>
+                        </li>
+                        <li class="made__item">
+                            <p class="made__text">At the same time, prepare a water bath. Melt the butter on it.</p>
+                        </li>
+                        <li class="made__item">
+                            <p class="made__text">"Mix" the milk mixture and already liquid butter. Mix thoroughly with
+                                a
+                                silicone spatula so that the mass becomes uniform and silky.</p>
+                        </li>
+                        <li class="made__item">
+                            <p class="made__text">Heat the mixture over low heat, letting it barely boil.</p>
+                        </li>
+                        <li class="made__item">
+                            <p class="made__text">Pour the chocolate into special containers (can be replaced with ice
+                                molds). Allow to cool and harden.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <h2 class="products__title">Our <span class="products__product">pRODUCTS</span></h2>
+
+                <ul class="products__list">
+                    <li class="products__card">
+                        <img src="./images/orangechoc.png" alt="" class="products__image">
+                        <h2 class="products__subtitle">orange</h2>
+                        <p class="products__text">Dark chocolate</p>
+                        <button type="button" class="products__button">45 UAH</button>
+                    </li>
+                    <li class="products__card">
+                        <img src="./images/applecranchoc.png" alt="" class="products__image">
+                        <h2 class="products__subtitle">APPLE&CRANBERRY</h2>
+                        <p class="products__text">Milk chocolate</p>
+                        <button type="button" class="products__button">50 UAH</button>
+                    </li>
+                    <li class="products__card">
+                        <img src="./images/seasaltchoc.png" alt="" class="products__image">
+                        <h2 class="products__subtitle">lime&sea salt</h2>
+                        <p class="products__text">Dark chocolate</p>
+                        <button type="button" class="products__button">66 UAH</button>
+                    </li>
+                    <li class="products__card">
+                        <img src="./images/darkpinechoc.png" alt="" class="products__image">
+                        <h2 class="products__subtitle">pineapple</h2>
+                        <p class="products__text">Dark chocolate</p>
+                        <button type="button" class="products__button">54 UAH</button>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>

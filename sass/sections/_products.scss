@@ -20,6 +20,47 @@
         text-transform: uppercase;
     }
 
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        margin-top: 50px;
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-grow: 1;
+
+        padding: 20px;
+        border-radius: 15px;
+        border: 1px solid rgba(17, 17, 17, 0.10);
+        background: #FFF;
+
+        @media screen and (min-width: 736px) {
+            width: 222px;
+        }
+    }
+
+    &__card:not(:first-child) {
+        display: none;
+
+        @media screen and (min-width: 736px) {
+            display: flex;
+        }
+    }
+
+    &__card:last-child {
+        @media screen and (min-width: 736px) {
+            display: none;
+        }
+
+        @media screen and (min-width: 1168px) {
+            display: flex;
+        }
+    }
+
     &__subtitle {
         color: $text-color;
         font-size: 18px;
@@ -29,17 +70,6 @@
         text-transform: uppercase;
     }
 
-    &__card {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        padding: 32px 52px 32px 53px;
-        border-radius: 15px;
-        border: 1px solid rgba(17, 17, 17, 0.10);
-        background: #FFF;
-    }
-
     &__text {
         margin-top: 8px;
         color: $description-color;
@@ -47,6 +77,10 @@
         font-weight: 400;
         line-height: 14px;
         letter-spacing: -0.24px;
+    }
+
+    &__image {
+        width: 180px;
     }
 
     &__button {

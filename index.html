@@ -68,7 +68,7 @@
 
                 <div class="hero__group">
                     <ul class="hero__list">
-                        <li class="hero__item"><a href="" class="hero__link">Buy now</a></li>
+                        <li class="hero__item"><a href="" class="hero__link" data-modal-open>Buy now</a></li>
                         <li class="hero__item"><a href="" class="hero__link">How it’s made</a></li>
                     </ul>
 
@@ -151,24 +151,67 @@
                             <img src="./images/desktop/desktop-tastechocolate@1x.webp" alt="" class="taste__image">
                             <h3 class="taste__subtitle">mILK CHOCOLATE</h3>
                         </a>
+                        <div class="taste__hover">
+                            <h2 class="taste__ingridient">Milk chocolate</h2>
+                            <button class="taste__button" type="button">chocolate</button>
+                            <button class="taste__button" type="button">the benefits</button>
+                            <p class="taste__explanation">Milk chocolate is a solid chocolate confectionery containing
+                                cocoa, sugar and milk. It is the most consumed type of chocolate. Chocolate was
+                                originally sold and consumed as a beverage in pre-Columbian times. Although four-fifths
+                                of all milk chocolate is sold in the United States and Europe, increasingly large
+                                amounts are consumed in China and Latin America.</p>
+                        </div>
                     </li>
                     <li class="taste__item">
                         <a href="" class="taste__card">
                             <img src="./images/desktop/desktop-tastemilk@1x.webp" alt="" class="taste__image">
                             <h3 class="taste__subtitle">Milk</h3>
                         </a>
+                        <div class="taste__hover">
+                            <h2 class="taste__ingridient">Milk</h2>
+                            <button class="taste__button" type="button">milk</button>
+                            <button class="taste__button" type="button">the benefits</button>
+                            <p class="taste__explanation">Milk chocolate is a solid chocolate confectionery containing
+                                cocoa, sugar and milk. It is the most consumed type of chocolate. Chocolate was
+                                originally sold and consumed as a beverage in pre-Columbian times. Although four-fifths
+                                of all milk chocolate is sold in the United States and Europe, increasingly large
+                                amounts are consumed in China and Latin America.</p>
+                        </div>
                     </li>
                     <li class="taste__item">
                         <a href="" class="taste__card">
                             <img src="./images/desktop/desktop-tastenuts@1x.webp" alt="" class="taste__image">
                             <h3 class="taste__subtitle">nuts</h3>
                         </a>
+                        <div class="taste__hover">
+                            <h2 class="taste__ingridient">Nuts</h2>
+                            <button class="taste__button" type="button">nuts</button>
+                            <button class="taste__button" type="button">the benefits</button>
+                            <p class="taste__explanation">Almonds, pistachios, and walnuts are some types of nuts
+                                that
+                                contain healthy nutrients. When eaten as part of a nutrient-dense diet, these 9 nuts
+                                may
+                                offer benefits such as reducing your risk of heart disease. They’re a good source of
+                                fiber, healthy fats, and plant protein. Plus, they’re great on their own, paired
+                                with
+                                fruit, or added to dishes like salads, desserts, and grains.</p>
+                        </div>
                     </li>
                     <li class="taste__item">
                         <a href="" class="taste__card">
                             <img src="./images/desktop/desktop-tastecocoa@1x.webp" alt="" class="taste__image">
                             <h3 class="taste__subtitle">sEMI - SWEET CHOCOLATE</h3>
                         </a>
+                        <div class="taste__hover">
+                            <h2 class="taste__ingridient">semi - sweet chocolate</h2>
+                            <button class="taste__button" type="button">sweet chocolate</button>
+                            <button class="taste__button" type="button">the benefits</button>
+                            <p class="taste__explanation">Semi-sweet chocolate has a cocoa solid content of 35 to 65%.
+                                One of the best ways to gain an understanding of this type of chocolate is to compare it
+                                to a different type of chocolate. Semisweet is darker than milk chocolate. In a taste
+                                comparison, it has a slightly bitter taste whereas milk chocolate is sweeter and more
+                                mellow. This delectable flavor of chocolate is very versatile.</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -316,14 +359,115 @@
                     true indulgence that will leave you craving more. Made with only the finest ingredients and
                     handcrafted with the utmost care, each piece is a work of art that is sure to please.</p>
 
-                    <button type="button" class="newchoc__button">Subscribe</button>
+                <button type="button" class="newchoc__button">Subscribe</button>
             </div>
         </section>
     </main>
 
     <footer>
+        <section class="footer">
+            <div class="container">
+                <div class="footer__container">
+                    <h2 class="footer__title"><span class="footer__choc">Chocolate</span> a delicious cure for a bad day
+                    </h2>
 
+                    <ul class="footer__group">
+                        <li class="footer__item">
+                            <p class="footer__text">Contact us</p>
+                        </li>
+                        <li class="footer__item">
+                            <p class="footer__text">+380 (68) 443-94-26</p>
+                        </li>
+                        <li class="footer__item">
+                            <p class="footer__text">simplychoc@gmail.com</p>
+                        </li>
+                    </ul>
+
+                    <ul class="footer__links">
+                        <li class="footer__item2">
+                            <svg class="footer__image">
+                                <use class="footer__social" href="./images/symbol-defs.svg#icon-instagram"></use>
+                            </svg>
+                        </li>
+                        <li class="footer__item2">
+                            <!-- <svg class="footer__image">
+                                <use class="footer__social" href="./images/symbol-defs.svg#icon-twitters"></use>
+                            </svg> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" class="footer__image footer__image2">
+                                <path stroke="white"
+                                    d="M23 3.00005C22.0424 3.67552 20.9821 4.19216 19.86 4.53005C19.2577 3.83756 18.4573 3.34674 17.567 3.12397C16.6767 2.90121 15.7395 2.95724 14.8821 3.2845C14.0247 3.61176 13.2884 4.19445 12.773 4.95376C12.2575 5.71308 11.9877 6.61238 12 7.53005V8.53005C10.2426 8.57561 8.50127 8.18586 6.93101 7.39549C5.36074 6.60513 3.51032 4.72313 2.5 3.2845C2.5 3.2845 -1 13 8 17C5.94053 18.398 3.48716 19.099 1 19C10 24 21 19 21 7.50005C20.9991 7.2215 20.9723 6.94364 20.92 6.67005C21.9406 5.66354 22.6608 4.39276 23 3.00005Z"
+                                    stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
+
+                <ul class="footer__header">
+                    <li class="footer__item3"><a href="./index.html" class="footer__link">Home</a></li>
+                    <li class="footer__item3"><a href="#" class="footer__link">How it’s made?</a></li>
+                    <li class="footer__item3"><a href="#" class="footer__link">Our products</a></li>
+                    <li class="footer__item3"><a href="#" class="footer__link">Top sellers</a></li>
+                    <li class="footer__item3"><a href="#" class="footer__link">Chocolate is loved</a></li>
+                </ul>
+            </div>
+        </section>
     </footer>
+
+    <!------------------------------------------------------- Model Window ---------------------------------------------------->
+    <div class="backdrop is__hidden" data-modal>
+        <div class="model">
+            <button type="button" class="button__close" data-modal-close>
+                <!-- <svg class="model__x">
+                    <use href="./images/symbol-defs.svg#icon-x"></use>
+                </svg> -->
+                x
+            </button>
+
+            <h2 class="model__title">Please fill in the information and we will contact you</h2>
+
+            <form class="model__form">
+                <label class="model__label">Name
+                    <input required type="text" class="model__input">
+                    <svg class="model__icon">
+                        <use href="./img/symbol-defs.svg#icon-person"></use>
+                    </svg>
+                </label>
+
+                <label class="model__label">Phone Number
+                    <input required type="tel" class="model__input">
+                    <svg class="model__icon">
+                        <use href="./img/symbol-defs.svg#icon-phone"></use>
+                    </svg>
+                </label>
+
+                <label class="model__label">Email
+                    <input required type="email" class="model__input">
+                    <svg class="model__icon">
+                        <use href="./img/symbol-defs.svg#icon-envelope"></use>
+                    </svg>
+                </label>
+
+                <label class="model__label">Comments
+                    <textarea class="model__textarea" placeholder="Введіть текст"></textarea>
+                </label>
+
+                <div class="model__checkbox__group">
+
+                    <input required class="model__check" type="checkbox" id="qwa">
+
+                    <label for="qwa" class="model__checkbox">Accept our</label>
+                    <a href="#" class="model__link">Terms of Service</a>
+                </div>
+
+                <div class="model__button__group">
+                    <button type="submit" class="model__button">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./js/model.js"></script>
 </body>
 
 </html>
